@@ -1,4 +1,11 @@
 In/out of circuit digital or analog ic tester.
+Orginal at www.electronic-hacks.com/SMF/index.php/topic,4.msg99.html#new
+
+
+all pins protected by 5.9v 1/2w zener and protection resistor
+---------------------
+A0  -  220ohm = pin1
+D2  -  220ohm = pin1 ~ 20ma max out/in
 Max test pins 16, each pins has
 
     Max back drive current 5v/180ohms~ 27ma.
@@ -10,10 +17,8 @@ Max test pins 16, each pins has
 Other specs:
 Running StandardFirmata version 2.2 http://firmata.org/wiki/Main_Page.
 This uses a ATmega1280, quick specs- The Arduino Mega is a 8bit microcontroller board based on the ATmega1280. 
-It has 54 digital input/output pins (of which 14 can be used as PWM outputs), 16 analog inputs, 
-4 UARTs (hardware serial ports), a 16 MHz crystal oscillator, a USB connection, a power jack, 
-an ICSP header, and a reset button. It contains everything needed to support the microcontroller; 
-simply connect it to a computer with a USB cable or power it with a AC-to-DC adapter or battery to get started. 
+It has 54 digital input/output pins (of which 14 can be used as PWM outputs), 16 analog inputs, 4 UARTs (hardware serial ports), a 16 MHz crystal oscillator, a USB connection, a power jack, 
+an ICSP header, and a reset button. It contains everything needed to support the microcontroller; simply connect it to a computer with a USB cable or power it with a AC-to-DC adapter or battery to get started. 
 The Mega is compatible with most shields designed for the Arduino Duemilanove or Diecimila.
 Allows loading of http://www.kingswood-consulting.co.uk/giicm/ IC pinouts, 
 screen capture with timestamp, and because it's java it will run on any platform. 
